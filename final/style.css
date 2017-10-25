@@ -1,0 +1,20 @@
+.popup {
+	height: 150px;
+	width: 300px;
+	background-color: lavender;
+	position: relative;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.popup button {
+	float: right;
+}
+
+.popup.active {
+	display: block;
+}
+
+.popup.inactive {
+	display: none;
+}
