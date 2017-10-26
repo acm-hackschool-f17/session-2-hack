@@ -5,7 +5,7 @@ $(document).ready(function() {
 		$(".popup .title").text(fruit);
 		$(".popup").removeClass("inactive");
 		$(".popup").addClass("active");
-		$(".container").css("opacity", "0.5");
+		$(".container").css("opacity", "0.2");
 	});
 
 	$("button").on("click", function(event) {
